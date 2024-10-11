@@ -52,8 +52,8 @@ Though the file is an executable, for setting up we require the location for an 
 - Click the "Exit Application" button on the GUI to exit the application.
 
 ## Models
-The model uses a convolutional neural network (CNN) for emotion classification. Models used include `best_model.keras` and `sid_model.h5` (both are the same with 65.6% accuracy).
-Note: There is no need for training the model (but if you want to, I have provided all the codes) as it is already present in the repo. Just follow the installation steps to use the application.
+The model uses a convolutional neural network (CNN) for emotion classification. Models used include `best_model.keras` (65.6% accuracy).
+Note: You do not need to train the model (but I have provided all the codes if you want to), as it is already present in the repo. To use the application, just follow the installation steps.
 
 ## Building Dataset
 In the directory `./model/dataset`, the main dataset file is `mainDataset.csv` which has combined two most commonly used emotion detection datasets: fer2013 (already in CSV form) and CK+ (Extended Cohn-Kanade Dataset) (I have provided code to convert images from each folder to CSV format of fer2013 and you can see `output.csv` for reference).

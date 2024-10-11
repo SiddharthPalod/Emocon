@@ -19,6 +19,12 @@ You can view a demonstration of the Emotion Detection System in action here: [Em
 Though the file is an executable, for setting up we require the location for an OpenCV package, hence install:
 - Python 3.x
 - OpenCV
+- tkinter
+- tensorflow
+- PILLOW
+- numpy
+- io
+- os
 
 ### Installation
 1. Clone the repository:
@@ -36,6 +42,11 @@ Though the file is an executable, for setting up we require the location for an 
     
     ```bash
     datas=[('<yourpath>/Python/Python310/Lib/site-packages/cv2/data/haarcascade_frontalface_default.xml', 'cv2/data')],
+    ```
+
+    Then run the main.py file to build the application
+    ```bash
+    python3 main.py
     ```
 
 3. Run the application:
@@ -56,7 +67,7 @@ The model uses a convolutional neural network (CNN) for emotion classification. 
 Note: You do not need to train the model (but I have provided all the codes if you want to), as it is already present in the repo. To use the application, just follow the installation steps.
 
 ## Building Dataset
-In the directory `./model/dataset`, the main dataset file is `mainDataset.csv` which has combined two most commonly used emotion detection datasets: fer2013 (already in CSV form) and CK+ (Extended Cohn-Kanade Dataset) (I have provided code to convert images from each folder to CSV format of fer2013 and you can see `output.csv` for reference).
+In the directory `./model/dataset`, the main dataset file is `mainDataset.csv` (Note dataset is stored as a zip file) which has combined two most commonly used emotion detection datasets: fer2013 (already in CSV form) and CK+ (Extended Cohn-Kanade Dataset) (I have provided code to convert images from each folder to CSV format of fer2013 and you can see `output.csv` for reference).
 
 These datasets have been trained with greyscale images of dimension 48x48 pixels.
 Utilized libraries like:

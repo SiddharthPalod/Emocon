@@ -7,11 +7,11 @@ import seaborn as sns
 from cnnModel import cnn_model
 from matplotlib import pyplot as plt
 import tensorflow as tf
-from tensorflow.keras.utils import to_categorical
+from tensorflow.keras.utils import to_categorical # type: ignore
 import warnings
-from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint
-from tensorflow.keras.optimizers import Adam
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint # type: ignore
+from tensorflow.keras.optimizers import Adam # type: ignore
+from tensorflow.keras.preprocessing.image import ImageDataGenerator # type: ignore
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import confusion_matrix, classification_report

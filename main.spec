@@ -5,7 +5,7 @@ a = Analysis(
     ['main.py'],
     pathex=[],
     binaries=[],
-    datas=[('C:/Users/Siddharth/AppData/Local/Programs/Python/Python310/Lib/site-packages/cv2/data/haarcascade_frontalface_default.xml', 'cv2/data')],
+    datas=[('<yourpath>/Python/Python310/Lib/site-packages/cv2/data/haarcascade_frontalface_default.xml', 'cv2/data')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},

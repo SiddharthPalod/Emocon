@@ -44,6 +44,8 @@ Though the file is an executable, for setting up we require the location for an 
     datas=[('<yourpath>/Python/Python310/Lib/site-packages/cv2/data/haarcascade_frontalface_default.xml', 'cv2/data')],
     ```
 
+    Then unzip the best_model file in the model directory (this is the trained model)
+
     Then run the main.py file to build the application
     ```bash
     python3 main.py
